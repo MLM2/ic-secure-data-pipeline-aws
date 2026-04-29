@@ -38,3 +38,7 @@ Serverless AWS data pipeline demonstrating secure ingestion, processing, and sto
   "source": "MASINT",
   "confidence": 0.95
 }
+
+## 📌 Mission Relevance
+
+This architecture reflects common IC data ingestion patterns, where event-driven processing enables scalable, auditable, and secure transformation of incoming data streams.
