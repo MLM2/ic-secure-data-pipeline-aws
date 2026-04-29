@@ -43,4 +43,4 @@ Serverless AWS data pipeline demonstrating secure ingestion, processing, and sto
 
 ## 📌 Mission Relevance
 
-This architecture reflects common IC data ingestion patterns, where event-driven processing enables scalable, auditable, and secure transformation of incoming data streams.
+This architecture reflects common Intelligence Community data ingestion patterns, where event-driven processing enables scalable, auditable, and secure transformation of mission data across distributed systems.
