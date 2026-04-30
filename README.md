@@ -4,9 +4,11 @@ Serverless AWS data pipeline demonstrating secure ingestion, processing, and sto
 
 ---
 
-## 🧠 Architecture
+🧠 Architecture
 
-![AWS Data Pipeline Architecture](architecture/architecture.png)
+AWS Data Pipeline Architecture
+
+Event-driven serverless architecture designed for scalable, secure ingestion and processing of mission data.
 
 ---
 
@@ -40,7 +42,52 @@ Serverless AWS data pipeline demonstrating secure ingestion, processing, and sto
 }
 
 ---
+---
 
+## 📌 Architecture Design Considerations
+
+This solution is designed using an event-driven serverless architecture aligned to AWS best practices.
+
+- Scalability: Amazon S3 and AWS Lambda enable automatic scaling based on incoming data volume  
+- Decoupling: S3 event notifications allow loosely coupled ingestion and processing layers  
+- Separation of concerns: Raw and processed data are stored in separate buckets to maintain data integrity and traceability  
+- Extensibility: Additional processing steps (e.g., enrichment, analytics) can be added without modifying ingestion logic  
+
+---
+
+## 🔐 Security Considerations
+
+- IAM roles enforce least-privilege access between S3 and Lambda  
+- Data stored in S3 is encrypted at rest using AWS-managed keys (KMS)  
+- Access to buckets can be restricted via bucket policies  
+- Logging via CloudWatch enables auditability and monitoring  
+
+---
+
+## ⚖️ Design Tradeoffs
+
+- Lambda vs EC2:  
+  Lambda provides scalability and low operational overhead, but introduces execution limits and less control over runtime  
+
+- Event-driven vs batch processing:  
+  Event-driven enables real-time processing but adds architectural complexity  
+
+- S3 storage tiers:  
+  Standard storage is used for simplicity, with tradeoffs in cost compared to archival tiers  
+
+---
+
+## 🧠 Well-Architected Alignment
+
+This architecture aligns with AWS Well-Architected Framework principles:
+
+- Security: IAM roles, encryption, controlled access  
+- Reliability: S3 durability and event-driven processing  
+- Performance Efficiency: Serverless scaling with Lambda  
+- Cost Optimization: Pay-per-use model  
+- Operational Excellence: Logging and monitoring via CloudWatch  
+
+---
 ## 📌 Mission Relevance
 
 This architecture reflects common Intelligence Community data ingestion patterns, where event-driven processing enables scalable, auditable, and secure transformation of mission data across distributed systems.
