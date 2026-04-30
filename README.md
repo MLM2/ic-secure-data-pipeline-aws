@@ -40,7 +40,7 @@ Event-driven serverless architecture designed for scalable, secure ingestion and
   "source": "MASINT",
   "confidence": 0.95
 }
-
+```
 ---
 
 ## 📌 Architecture Design Considerations
