@@ -42,7 +42,6 @@ Event-driven serverless architecture designed for scalable, secure ingestion and
 }
 
 ---
----
 
 ## 📌 Architecture Design Considerations
 
@@ -88,6 +87,7 @@ This architecture aligns with AWS Well-Architected Framework principles:
 - Operational Excellence: Logging and monitoring via CloudWatch  
 
 ---
+
 ## 📌 Mission Relevance
 
 This architecture reflects common Intelligence Community data ingestion patterns, where event-driven processing enables scalable, auditable, and secure transformation of mission data across distributed systems.
