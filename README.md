@@ -91,3 +91,7 @@ This architecture aligns with AWS Well-Architected Framework principles:
 ## 📌 Mission Relevance
 
 This architecture reflects common Intelligence Community data ingestion patterns, where event-driven processing enables scalable, auditable, and secure transformation of mission data across distributed systems.
+
+---
+
+Last updated: April 2026 – Continuous refinement of architecture and documentation
