@@ -4,9 +4,11 @@ Secure, event-driven AWS data pipeline (S3 + Lambda) demonstrating scalable inge
 
 ---
 
-🧠 Architecture
+## 🧠 Architecture
 
 AWS Data Pipeline Architecture
+
+Diagram illustrates event-driven ingestion and processing workflow using S3 and Lambda.
 
 Event-driven serverless architecture designed for scalable, secure ingestion and processing of mission data.
 
