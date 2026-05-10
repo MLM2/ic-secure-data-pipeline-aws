@@ -59,7 +59,7 @@ This solution is designed using an event-driven serverless architecture aligned 
 ## 🔐 Security Considerations
 
 - IAM roles enforce least-privilege access between S3 and Lambda  
-- Data stored in S3 is encrypted at rest using AWS-managed keys (KMS)  
+- Data stored in S3 can be encrypted at rest using AWS-managed encryption capabilities  
 - Access to buckets can be restricted via bucket policies  
 - Logging via CloudWatch enables auditability and monitoring  
 
