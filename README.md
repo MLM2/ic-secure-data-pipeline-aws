@@ -20,7 +20,7 @@ Event-driven serverless architecture designed for scalable, secure ingestion and
 - AWS Lambda (serverless processing)
 - AWS IAM (access control)
 - Amazon CloudWatch (logging and monitoring)
-
+- AWS CLI (command-line interaction and validation)
 ---
 
 ## ⚙️ How It Works
@@ -96,4 +96,5 @@ This architecture reflects common Intelligence Community data ingestion patterns
 
 ---
 
-Last updated: April 2026 – Continuous refinement of architecture and documentation
+Last updated: May 2026 – Continuous refinement of architecture and documentation
+Developed as part of ongoing AWS technical upskilling and cloud architecture learning.
