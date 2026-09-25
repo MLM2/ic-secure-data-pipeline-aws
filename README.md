@@ -62,6 +62,7 @@ This solution is designed using an event-driven serverless architecture aligned 
 - Data stored in S3 can be encrypted at rest using AWS-managed encryption capabilities  
 - Access to buckets can be restricted via bucket policies  
 - Logging via CloudWatch enables auditability and monitoring  
+> **IC Cloud note:** Architecture patterns are compatible with AWS C2S / SC2S deployments used across the Intelligence Community.
 
 ---
 
