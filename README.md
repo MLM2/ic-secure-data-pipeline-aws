@@ -97,6 +97,6 @@ This architecture reflects common Intelligence Community data ingestion patterns
 
 ---
 
-Last updated: May 2026 – Continuous refinement of architecture and documentation
+Last updated: September 2026 – Added IC Cloud compatibility note; continuous refinement of architecture and documentation
 
 Developed as part of ongoing AWS technical upskilling and cloud architecture learning.
